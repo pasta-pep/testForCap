@@ -430,6 +430,7 @@ p {
 
     p {
       margin-top: 0.75em;
+      width: 48ch;
     }
   }
 
@@ -467,15 +468,16 @@ p {
     grid-column: 1 / -1;
     transform: scale(1.52);
     z-index: -1;
+
   }
 
   .mygrid .body-text {
     grid-column: 1 / -1;
-    /* grid-row: 1/span 2; */
+    grid-row: 1/span 2;
     padding-right: 0;
     display: flex;
     justify-content: center;
-    margin-left: -7.4rem;
+    margin-left: -3.4rem;
     position: relative;
     z-index: 1;
     mix-blend-mode: difference;
@@ -484,13 +486,13 @@ p {
 
 
   h1 {
-    font-size: 16vw;
-    text-align: center;
+    font-size: 22vw;
+    /* text-align: center; */
     color: rgb(255, 255, 255);
-    line-height: 0.85;
+    line-height: 0.9;
     max-width: 100%;
 
-    /* letter-spacing: .05em; */
+    /* letter-spacing: -.001em; */
   }
 
 }
@@ -960,6 +962,7 @@ p {
 
     p {
       margin-top: 0.75em;
+      width: 25ch;
     }
   }
 }
@@ -1082,6 +1085,7 @@ p {
 
     p {
       margin-top: 0.75em;
+      width: 27ch;
     }
   }
 }
@@ -1213,6 +1217,7 @@ p {
 
     p {
       margin-top: 0.75em;
+      width: 25ch;
     }
   }
 }
